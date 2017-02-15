@@ -1,6 +1,6 @@
 ---
 documentclass: physycomen
-title:  "gnss_conversion"
+title:  "libgnssconv"
 author: "Fabbri, Sinigardi"
 ---
 
@@ -9,14 +9,14 @@ author: "Fabbri, Sinigardi"
 <img src="https://cdn.rawgit.com/physycom/templates/697b327d/logo_unibo.png" width="90" height="90" alt="© Physics of Complex Systems Laboratory - Physics and Astronomy Department - University of Bologna"> 
 </div>
 </a>
-<a href="https://travis-ci.org/physycom/gnss_conversion"> 
+<a href="https://travis-ci.org/physycom/libgnssconv"> 
 <div class="image">
-<img src="https://travis-ci.org/physycom/gnss_conversion.svg?branch=master" width="90" height="20" alt="Build Status"> 
+<img src="https://travis-ci.org/physycom/libgnssconv.svg?branch=master" width="90" height="20" alt="Build Status"> 
 </div>
 </a>
-<a href="https://ci.appveyor.com/project/cenit/gnss-conversion"> 
+<a href="https://ci.appveyor.com/project/cenit/libgnssconv"> 
 <div class="image">
-<img src="https://ci.appveyor.com/api/projects/status/r4mivfhqgo300c99?svg=true" width="90" height="20" alt="Build Status"> 
+<img src="https://ci.appveyor.com/api/projects/status/39qu0u1lc2w929s3?svg=true" width="90" height="20" alt="Build Status"> 
 </div>
 </a>
 

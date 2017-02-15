@@ -141,10 +141,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\gnss_conversion.hpp" />
+    <ClCompile Include="..\src\example.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\example.cpp" />
+    <ClInclude Include="..\libgnssconv.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

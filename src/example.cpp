@@ -16,10 +16,13 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with gnss_conversion. If not, see <http://www.gnu.org/licenses/>.
 ***************************************************************************/
+#ifndef _GNU_SOURCE
+#define _GNU_SOURCE
+#endif
 
 #include <iostream>
 #include <iomanip>
-#include "gnss_conversion/gnss_conversion.hpp"
+#include "libgnssconv/libgnssconv.hpp"
 
 #define LAT_BO 44.499371
 #define LON_BO 11.353849
