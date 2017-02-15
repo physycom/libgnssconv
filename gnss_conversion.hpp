@@ -17,7 +17,9 @@ You should have received a copy of the GNU General Public License
 along with gnss_conversion. If not, see <http://www.gnu.org/licenses/>.
 ***************************************************************************/
 
-#define _GNU_SOURCE   // to use M_PI
+#ifndef _GNU_SOURCE
+#define _GNU_SOURCE
+#endif
 
 #include <iostream>
 #include <cmath>
@@ -46,10 +48,9 @@ public:
     iso6709 = dms[0]*100+(deg-dms[0])*60;
   }
   void Iso6709_To_DMS(){
-//    dms[0] = (int) ( iso6709 / 1e2 );
-    dms[0] = iso6709 / 1e2 ;
-    dms[1] = iso6709 - dms[0]*1e2 ;
-    dms[2] = ( iso6709 - (int) iso6709 )*60;
+    dms[0] = (int) (iso6709 / 1e2);
+    dms[1] = (int) (iso6709 - dms[0]*1e2);
+    dms[2] = (int) (( iso6709 - floor(iso6709))*60);
   }
   Gnss_Coordinate(){
     deg = 0.0;

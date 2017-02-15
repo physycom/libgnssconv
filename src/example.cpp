@@ -17,8 +17,9 @@ You should have received a copy of the GNU General Public License
 along with gnss_conversion. If not, see <http://www.gnu.org/licenses/>.
 ***************************************************************************/
 
+#include <iostream>
 #include <iomanip>
-#include "gnss_conversion.hpp"
+#include "gnss_conversion/gnss_conversion.hpp"
 
 #define LAT_BO 44.499371
 #define LON_BO 11.353849
@@ -74,3 +75,4 @@ int main(){
 
   return 0;
 }
+
