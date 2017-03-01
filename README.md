@@ -22,7 +22,7 @@ author: "Fabbri, Sinigardi"
 
 
 ### Purpose
-This tool has been written in order to ease the conversion between GNSS data formats. Its use will be first and foremost as a submodule in projects that will require these kind of different geopositioning representations.
+This library has been written in order to ease the conversion between GNSS data formats. Its use will be first and foremost as a submodule in projects that will require these kind of different geopositioning representations.
 
 ### Installation
 **make** and a **C++11** compatible compiler are required. Clone the repo and type ``make``, it should be enough in most cases to build the two executables!   
