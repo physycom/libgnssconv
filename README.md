@@ -25,8 +25,11 @@ author: "Fabbri, Sinigardi"
 This library has been written in order to ease the conversion between GNSS data formats. Its use will be first and foremost as a submodule in projects that will require these kind of different geopositioning representations.
 
 ### Installation
-**make** and a **C++11** compatible compiler are required. Clone the repo and type ``make``, it should be enough in most cases to build the two executables!   
-There's also a **VS2015** solution avalaible.   
+**CMake** and a **C++11** compatible compiler are required. To build the executable, clone the repo and then type  
+```
+mkdir build ; cd build ; cmake .. ; cmake --build . --target install
+```
+With CMake you can also deploy projects for the most common IDEs.  
 
 
 
